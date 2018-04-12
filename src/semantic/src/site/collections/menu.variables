@@ -3,3 +3,4 @@
 *******************************/
 @background: #2898AA;
 @borderRadius: 0px;
+@secondaryBackground: #2898AA;

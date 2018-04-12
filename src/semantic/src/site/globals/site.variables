@@ -2,3 +2,4 @@
      User Global Variables
 *******************************/
 @textColor           : #fff;
+@selectedTextColor   : rgba(255, 255, 255, 0.9);
