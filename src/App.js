@@ -4,7 +4,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div class="ui secondary menu">
+    <div class="ui secondary menu">
       <a class="item active">
         Home
       </a>
@@ -25,7 +25,7 @@ class App extends Component {
           Logout
         </a>
       </div>
-</div>
+    </div>
     );
   }
 }
