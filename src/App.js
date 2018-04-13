@@ -10,7 +10,7 @@ class App extends Component {
   render(){
     const {activeItem} = this.state
     return(
-      <Menu borderless>
+      <Menu borderless secondary>
         <Menu.Menu position='left'>
           <Menu.Item
             name='Home'
@@ -43,12 +43,12 @@ class App extends Component {
             Kompetisi
           </Menu.Item>
 
-          <Menu.Item>
+          <Menu.Item style={{width: 100+'%'}} >
             <SearchBar placeHolder='Cari Karya... '/>
           </Menu.Item>
         </Menu.Menu>
 
-        <Menu.Menu position='right'>
+        <Menu.Menu position='right' style={{marginLeft: 0}}>
           <Menu.Item>
             <Button style={styles.signup}>Sign up</Button>
           </Menu.Item>
