@@ -2,4 +2,9 @@
      User Global Variables
 *******************************/
 @textColor           : #fff;
+@dropdownItemTextColor : #1d1d1d;
 @selectedTextColor   : rgba(255, 255, 255, 0.9);
+
+@inputColor: #1d1d1d;
+@inputPlaceholderColor: lighten(@inputColor, 55);
+@inputPlaceholderFocusColor: lighten(@inputColor, 45);

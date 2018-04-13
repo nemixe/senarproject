@@ -4,3 +4,13 @@
 @background: #2898AA;
 @borderRadius: 0px;
 @secondaryBackground: #2898AA;
+
+@buttonSize: @relativeSmall;
+
+@dropdownItemColor: @dropdownItemTextColor;
+
+@inputSize: @relativeSmall;
+
+
+@itemVerticalPadding: @relativeMini;
+@itemHorizontalPadding: @relativeMini;
