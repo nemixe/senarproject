@@ -43,7 +43,7 @@ class App extends Component {
             Kompetisi
           </Menu.Item>
 
-          <Menu.Item style={{width: 100+'%'}} >
+          <Menu.Item>
             <SearchBar placeHolder='Cari Karya... '/>
           </Menu.Item>
         </Menu.Menu>
