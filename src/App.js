@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Menu, Input, Dropdown, Button} from 'semantic-ui-react';
+import {Menu, Dropdown, Button, Responsive, Image} from 'semantic-ui-react';
 import Logo from './logo.svg';
 import SearchBar from './SearchBar'
 class App extends Component {
@@ -10,20 +10,18 @@ class App extends Component {
   render(){
     const {activeItem} = this.state
     return(
-      <Menu borderless secondary>
-        <Menu.Menu position='left'>
-          <Menu.Item
-            name='Home'
-            onClick={this.handleItemClick}
-          >
-            <img src={Logo} style={styles.logo}/>
+      <Menu borderless secondary style={styles.nav} >
+        <Menu.Menu style={styles.menus}>
+          <Menu.Item>
+            <Image src={Logo} style={styles.logo}/>
           </Menu.Item>
 
           <Dropdown pointing floating item text='Kategori'>
             <Dropdown.Menu>
-              <Dropdown.Item>English</Dropdown.Item>
-              <Dropdown.Item>Russian</Dropdown.Item>
-              <Dropdown.Item>Spanish</Dropdown.Item>
+              <Dropdown.Item>Traditional</Dropdown.Item>
+              <Dropdown.Item>Modern</Dropdown.Item>
+              <Dropdown.Item>Patung</Dropdown.Item>
+              <Dropdown.Item>Abstrak</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
 
@@ -42,13 +40,17 @@ class App extends Component {
           >
             Kompetisi
           </Menu.Item>
+          
+          
+        </Menu.Menu>
 
-          <Menu.Item>
+        <Menu.Menu style={styles.searchContainer}>
+          <Menu.Item style={styles.searchBox} >
             <SearchBar placeHolder='Cari Karya... '/>
           </Menu.Item>
         </Menu.Menu>
 
-        <Menu.Menu position='right' style={{marginLeft: 0}}>
+        <Menu.Menu style={styles.auth}>
           <Menu.Item>
             <Button style={styles.signup}>Sign up</Button>
           </Menu.Item>
@@ -62,8 +64,31 @@ class App extends Component {
 }
 
 const styles = {
+  nav:{
+    marginRight: 0, 
+    marginLeft: 0, 
+    display: 'flex', 
+    alignItems: 'center',
+    minWidth: 'max-content'
+  },
   logo:{
     width: 80
+  },
+  menus:{
+    marginLeft: 0, 
+    marginRight: 0, 
+    padding: 0, 
+    flexShrink: 0
+  },
+  searchContainer:{
+    marginLeft: 0, 
+    marginRight: 0, 
+    padding: 0, 
+    flexGrow: 1,
+    minWidth: '18rem'
+  },
+  searchBox:{
+    width: 100+'%'
   },
   signup:{
     background: 'transparent',

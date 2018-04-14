@@ -8,3 +8,5 @@
 @inputColor: #1d1d1d;
 @inputPlaceholderColor: lighten(@inputColor, 55);
 @inputPlaceholderFocusColor: lighten(@inputColor, 45);
+
+@pageOverflowX       : auto;

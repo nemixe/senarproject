@@ -11,6 +11,5 @@
 
 @inputSize: @relativeSmall;
 
-
 @itemVerticalPadding: @relativeMini;
 @itemHorizontalPadding: @relativeMini;

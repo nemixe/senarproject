@@ -566,7 +566,7 @@ html {
 body {
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
+  overflow-x: auto;
   min-width: 320px;
   background: #FFFFFF;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
