@@ -10,3 +10,5 @@
 @inputPlaceholderFocusColor: lighten(@inputColor, 45);
 
 @pageOverflowX       : auto;
+
+@pageMinWidth       : 800px;
