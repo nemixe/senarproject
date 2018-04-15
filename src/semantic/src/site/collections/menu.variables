@@ -2,6 +2,8 @@
     User Variable Overrides
 *******************************/
 @background: #2898AA;
+@itemTextColor: #ffffff;
+@dropdownHoveredItemColor: @hoveredTextColor;
 @borderRadius: 0px;
 @secondaryBackground: #2898AA;
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Menu, Dropdown, Button, Responsive, Image} from 'semantic-ui-react';
 import Logo from './logo.svg';
-import SearchBar from './SearchBar'
+import SearchBar from './SearchBar';
 class App extends Component {
   state = {}
 
@@ -10,7 +10,7 @@ class App extends Component {
   render(){
     const {activeItem} = this.state
     return(
-      <Menu borderless secondary style={styles.nav} >
+      <Menu borderless style={styles.nav} >
         <Menu.Menu style={styles.menus}>
           <Menu.Item>
             <Image src={Logo} style={styles.logo}/>
@@ -53,8 +53,6 @@ class App extends Component {
         <Menu.Menu style={styles.auth}>
           <Menu.Item>
             <Button style={styles.signup}>Sign up</Button>
-          </Menu.Item>
-          <Menu.Item>
             <Button style={styles.login}>Log in</Button>
           </Menu.Item>
         </Menu.Menu>
