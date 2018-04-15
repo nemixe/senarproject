@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
+    "react-router": "^4.2.0",
     "react-scripts": "1.1.4",
     "semantic-ui-react": "^0.79.1"
   },
@@ -17,11 +18,11 @@
     "build-storybook": "build-storybook -s public"
   },
   "devDependencies": {
-    "semantic-ui": "^2.3.1",
-    "@storybook/react": "^3.4.1",
     "@storybook/addon-actions": "^3.4.1",
     "@storybook/addon-links": "^3.4.1",
     "@storybook/addons": "^3.4.1",
-    "babel-core": "^6.26.0"
+    "@storybook/react": "^3.4.1",
+    "babel-core": "^6.26.0",
+    "semantic-ui": "^2.3.1"
   }
 }
