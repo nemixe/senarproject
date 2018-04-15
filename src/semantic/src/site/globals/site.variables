@@ -11,4 +11,7 @@
 
 @pageOverflowX       : auto;
 
+@relativeBorderRadius: @relative5px;
+@absoluteBorderRadius: @5px;
+
 @pageMinWidth       : 800px;
