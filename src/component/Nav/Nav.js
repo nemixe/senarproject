@@ -37,7 +37,7 @@ class Nav extends Component {
 
         <Menu.Menu style={styles.searchContainer}>
           <Menu.Item style={styles.searchBox} >
-            <SearchBar placeHolder='Cari Karya... '/>
+            <SearchBar placeHolder='Cari Lukisan dan Seniman'/>
           </Menu.Item>
         </Menu.Menu>
 
