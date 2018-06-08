@@ -29,8 +29,7 @@ class Routers extends React.Component{
 
 const styles = {
     dash:{
-        marginTop: 67,
-        marginBottom: 0
+        marginTop: 15,
     }
 }
 export default Routers

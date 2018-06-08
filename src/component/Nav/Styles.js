@@ -4,10 +4,11 @@ const styles = {
     nav:{
         marginRight: 0, 
         marginLeft: 0,
-        marginBottom:0,
         display: 'flex', 
         alignItems: 'center',
-        minWidth: 'max-content'
+        minWidth: 'max-content',
+        position: 'sticky',
+        zIndex: 101
     },
     logo:{
         width: 80
